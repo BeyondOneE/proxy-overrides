@@ -1,0 +1,53 @@
+# Mobile direct-routing domains: KOOK, Oopz, Spotify, QQ
+# +.example.com matches the apex and all subdomains.
+# Bare hostnames match exactly. Routing policy is configured in AppsConnect.
+# Steam and Escape from Tarkov are intentionally excluded.
+
+# KOOK
++.kookapp.cn
++.kook.top
+
+# Oopz
++.oopz.cn
+
+# Spotify: whole-service direct routing
++.spotify.com
++.scdn.co
++.pscdn.co
++.spotifycdn.com
++.spotifycdn.net
++.spoti.fi
++.spotify.link
++.byspotify.com
++.lifeatspotify.com
++.spotify-everywhere.com
++.spotify.design
++.spotifycharts.com
++.spotifycodes.com
++.spotifyforbrands.com
++.spotifyforvendors.com
++.spotifyjobs.com
++.tospotify.com
+
+# Spotify hosts on shared CDN platforms: exact match only
+audio-ak-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
+heads-ak-spotify-com.akamaized.net
+heads4-ak-spotify-com.akamaized.net
+cdn-spotify-experiments.conductrics.com
+spotify.com.edgesuite.net
+spotify.map.fastly.net
+spotify.map.fastlylb.net
+
+# QQ and shared Tencent resource domains
++.qq.com
++.qq.com.cn
++.imqq.com
++.qqmail.com
++.qzone.com
++.gtimg.cn
++.gtimg.com
++.gtimg.com.cn
++.qpic.cn
++.qlogo.cn
++.idqqimg.com
