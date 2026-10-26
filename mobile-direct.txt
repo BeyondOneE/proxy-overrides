@@ -10,8 +10,8 @@
 # Oopz
 +.oopz.cn
 
-# Spotify: whole-service direct routing
-+.spotify.com
+# Spotify: spotify.com website/login/API use the original routing policy.
+# Keep other existing Spotify domain/CDN exceptions unchanged.
 +.scdn.co
 +.pscdn.co
 +.spotifycdn.com
